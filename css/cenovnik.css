@@ -1,0 +1,418 @@
+@font-face {
+    font-family: Neue Extended Thin;
+    src: url(../fonts/Neue\ Plak\ Extended\ Thin.ttf);
+}
+
+@font-face {
+    font-family: Neue Extended Light;
+    src: url(../fonts/Neue\ Plak\ Extended\ Light.ttf);
+}
+
+@font-face {
+    font-family: Neue Condensed ExtraBlack;
+    src: url(../fonts/Neue\ Plak\ Condensed\ ExtraBlack.ttf);
+}
+
+@font-face {
+  font-family: Neue Extended ExtraBlack;
+  src: url(../fonts/Neue\ Plak\ Extended\ ExtraBlack.ttf);
+}
+
+@font-face {
+  font-family: Neue Condensed Bl;
+  src: url(../fonts/Neue\ Plak\ Condensed\ Black.ttf);
+}
+
+body{
+    height: 3200px;
+    background-image: url("../Pozadina-cenovnik.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: 85% 15%;
+}
+
+h1{
+    margin: 0;
+    font-weight: 100;
+}
+
+.subbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-container{
+    position: relative;
+    width: 500px;
+}
+
+.burger-menu{
+    position: absolute;
+    max-width: 45px;
+    right: 50px;
+}
+
+.cenovnik-container{
+    margin-top: 10px;
+    font-size: 70px;
+    left: 70px;
+    width: 1300px;
+    display: flex;
+    justify-content: end;
+}
+
+
+@media only screen and (max-width: 1285px) {
+   
+    .cenovnik-container{
+        font-size: 50px;
+    }
+
+    .burger-menu{
+      right: 20px;
+    }
+  }  
+
+
+@media only screen and (max-width: 800px) {
+
+    .cenovnik-container{
+        font-size: 40px;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 470px) {
+ 
+    .cenovnik-container {
+        font-size: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+ 
+    .cenovnik-container {
+        font-size: 24px;
+    }
+  }
+
+
+  .cene-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-right: 180px;
+    flex-wrap: wrap;
+  }
+
+  .cene{
+    width: 350px;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+  }
+
+  .first-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headline{
+    font-family: Neue Condensed ExtraBlack;
+    margin-top: 20px;
+    font-size: 40px;
+    background: linear-gradient(45deg, #3e77f4, #58bef9, #44f8c2, #4cfa7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .headline-paketi{
+    font-family: Neue Condensed ExtraBlack;
+    margin-top: 20px;
+    font-size: 40px;
+    background: linear-gradient(45deg, #ff0000, #ff7300, #ffeb00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .more{
+    font-family: Neue Condensed ExtraBlack;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .about{
+    font-family: Neue Extended Light;
+    margin-top: 90px;
+    font-size: 18px;
+  }
+
+  .about p{
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+  }
+
+  .about-reklamna{
+    font-family: Neue Extended Light;
+    margin-top: 140px;
+    margin-bottom: 95px;
+    font-size: 18px;
+  }
+
+  .about-reklamna p{
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+  }
+
+  .category{
+    margin-top: 60px;
+  }
+
+  .iznos{
+    margin-top: 50px;
+  }
+
+  .iznos-promo p{
+    font-family: Neue Condensed ExtraBlack;
+    font-size: 60px;
+    color: #009e59;
+  }
+
+  .iznos p{
+    font-family: Neue Condensed ExtraBlack;
+    font-size: 60px;
+    color: #009e59;
+  }
+
+  .about{
+    height: 250px;
+  }
+
+  .cene-kontakt{
+    font-size: 40px;
+  }
+
+  .paketi{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: Neue Condensed ExtraBlack;
+    background: linear-gradient(to left, rgba(30, 30, 30, 0.9), rgba(10, 10, 10, 0.7));
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    backdrop-filter: blur(8px);
+  }
+
+  .fifth-group{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .pozovite {
+    position: relative;
+    width: 180px;
+  }
+
+  .pozovite img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    cursor: pointer;
+    transition: opacity 0.6s ease;
+  }
+
+  .pozovite-img-hover{
+    opacity: 0;
+  }
+
+  .pozovite:hover .pozovite-img {
+    opacity: 0;
+  }
+
+  .pozovite:hover .pozovite-img-hover {
+    opacity: 1;
+  }
+
+  @media only screen and (max-width: 1700px) {
+
+    .cene-container{
+      flex-wrap: wrap;
+      margin-left: 0;
+      margin-right: 0px;
+      justify-content: space-evenly;
+    }
+  }
+
+  @media only screen and (max-width: 1165px) {
+    body{
+      height: 2800px;
+    }
+
+    .cene{
+      width: 270px;
+      height: 470px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .headline-paketi{
+      font-size: 35px;
+    }
+
+    .about-reklamna{
+      margin-top: 115px;
+      margin-bottom: 50px;
+      font-size: 16px;
+    }
+  
+    .about-reklamna p{
+      padding-bottom: 20px;
+      letter-spacing: 0px;
+    }
+
+    .iznos-promo p{
+      font-size: 50px;
+    }
+
+    .iznos p{
+      font-size: 50px;
+    }
+
+    .about{
+      margin-top: 70px;
+      font-size: 16px;
+      height: 193px;
+    }
+  
+    .about p{
+      padding-bottom: 20px;
+      letter-spacing: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+
+    body{
+      height: 4500px;
+    }
+
+    .cene{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .cene{
+      width: 350px;
+      height: 600px;
+    }
+
+    .headline{
+      margin-top: 20px;
+      font-size: 40px;
+    }
+  
+    .headline-paketi{
+      margin-top: 20px;
+      font-size: 40px;
+    }
+
+    .about{
+      margin-top: 90px;
+      font-size: 18px;
+      height: 240px;
+    }
+  
+    .about p{
+      padding-bottom: 20px;
+      letter-spacing: 1px;
+    }
+  
+    .about-reklamna{
+      margin-top: 140px;
+      margin-bottom: 95px;
+      font-size: 18px;
+    }
+  
+    .about-reklamna p{
+      padding-bottom: 20px;
+      letter-spacing: 1px;
+    }
+  
+    .iznos{
+      margin-top: 90px;
+    }
+  
+    .iznos-promo p{
+      font-size: 60px;
+    }
+  
+    .iznos p{
+      font-size: 60px;
+    }
+  }
+
+  @media only screen and (max-width: 760px) {
+    body{
+      height: 7200px;
+    }
+  }
+
+  @media only screen and (max-width: 415px) {
+
+    body{
+      height: 6000px;
+    }
+
+    .cene{
+      width: 270px;
+      height: 470px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .headline-paketi{
+      font-size: 35px;
+    }
+
+    .about-reklamna{
+      margin-top: 115px;
+      margin-bottom: 50px;
+      font-size: 16px;
+    }
+  
+    .about-reklamna p{
+      padding-bottom: 20px;
+      letter-spacing: 0px;
+    }
+
+    .iznos{
+      margin-top: 55px;
+    }
+
+    .iznos-promo p{
+      font-size: 50px;
+    }
+
+    .iznos p{
+      font-size: 50px;
+    }
+
+    .about{
+      margin-top: 70px;
+      font-size: 16px;
+      height: 193px;
+    }
+  
+    .about p{
+      padding-bottom: 20px;
+      letter-spacing: 0px;
+    }
+  }

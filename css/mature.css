@@ -1,0 +1,575 @@
+body{
+  height: 5000px;
+}
+
+.mature-container{
+    margin-top: 10px;
+    font-size: 70px;
+    left: 70px;
+    width: 1200px;
+    display: flex;
+    justify-content: end;
+}
+
+
+@media only screen and (max-width: 1075px) {
+   
+    .mature-container{
+        font-size: 50px;
+    }
+  }  
+
+
+@media only screen and (max-width: 800px) {
+
+    .mature-container{
+        font-size: 40px;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 470px) {
+ 
+    .mature-container {
+        font-size: 30px;
+    }
+  }
+
+  .dunjina-fotka{
+    height: 700px;
+  }
+
+  .first-group1{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  .first-group a{
+    height: 200px;
+    width: 200px;
+  }
+
+  .kontaktirajte-me{
+    position: relative;
+  }
+
+  .kontaktirajte-me-img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: opacity 0.3s ease;
+  }
+
+  .kontaktirajte-me-img-hover{
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .kontaktirajte-me:hover .kontaktirajte-me-img {
+    opacity: 0;
+  }
+
+  .kontaktirajte-me:hover .kontaktirajte-me-img-hover {
+    opacity: 1;
+  }
+
+
+
+  .first-group{
+    margin-top: 190px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  
+
+  .second-group{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    height: 1000px;
+  }
+
+  .second-group img{
+    height: 800px;
+  }
+
+  .second-group2{
+    display: flex;
+    align-items: end;
+  }
+
+  .third-group{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .third-group1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .third-group1 img{
+    height: 500px;
+    padding-bottom: 190px;
+  }
+
+  .third-group2{
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+  }
+
+  .third-group2 img{
+    height: 800px;
+  }
+
+  .fourth-group{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .fifth-group{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .pozovite {
+    position: relative;
+    width: 180px;
+  }
+
+  .pozovite img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    cursor: pointer;
+    transition: opacity 0.6s ease;
+  }
+
+  .pozovite-img-hover{
+    opacity: 0;
+  }
+
+  .pozovite:hover .pozovite-img {
+    opacity: 0;
+  }
+
+  .pozovite:hover .pozovite-img-hover {
+    opacity: 1;
+  }
+
+
+  @media only screen and (max-width: 1500px) {
+
+    body{
+      height: 4500px;
+    }
+   
+    .dunjina-fotka{
+      height: 600px;
+    }
+
+    .kontaktirajte-me-img{
+      height: 170px;
+    }
+
+    .kontaktirajte-me-img-hover{
+      height: 170px;
+    }
+
+    .third-group1 img{
+      height: 400px;
+      padding-bottom: 150px;
+    }
+
+    .third-group2 img{
+      height: 700px;
+    }
+
+    .fourth-group1 img{
+      height: 700px;
+    }
+
+    .fourth-group2 img{
+      height: 450px;
+    }
+  }  
+
+  @media only screen and (max-width: 1300px) {
+
+    body{
+      height: 3850px;
+    }
+
+    .first-group{
+      margin-top: 130px;
+    }
+   
+    .dunjina-fotka{
+      height: 500px;
+    }
+
+    .kontaktirajte-me-img, .kontaktirajte-me-img-hover{
+      height: 150px;
+    }
+
+    .second-group{
+      height: 900px;
+      margin-top: 120px;
+    }
+
+    .second-group img{
+      height: 700px;
+    }
+
+    .third-group{
+      margin-top: 80px;
+    }
+
+    .third-group1 img{
+      height: 350px;
+      padding-bottom: 120px;
+    }
+
+    .third-group2 img{
+      height: 600px;
+    }
+
+    .fourth-group1 img{
+      height: 600px;
+    }
+
+    .fourth-group2 img{
+      height: 370px;
+    }
+  }  
+
+  @media only screen and (max-width: 1060px) {
+
+    body{
+      height: 3350px;
+    }
+
+    .first-group{
+      margin-top: 130px;
+    }
+   
+    .dunjina-fotka{
+      height: 400px;
+    }
+
+    .kontaktirajte-me-img, .kontaktirajte-me-img-hover{
+      height: 120px;
+    }
+
+    .second-group{
+      height: 800px;
+      margin-top: 100px;
+    }
+
+    .second-group img{
+      height: 570px;
+    }
+
+    .third-group{
+      margin-top: 80px;
+    }
+
+    .third-group1 img{
+      height: 300px;
+      padding-bottom: 80px;
+    }
+
+    .third-group2 img{
+      height: 500px;
+    }
+
+    .fourth-group1 img{
+      height: 500px;
+    }
+
+    .fourth-group2 img{
+      height: 300px;
+    }
+  }  
+
+  @media only screen and (max-width: 850px) {
+
+    body{
+      height: 5000px;
+    }
+
+    .first-group{
+      flex-wrap: wrap;
+    }
+    
+    .dunjina-fotka{
+      padding-right: 50px;
+    }
+
+    .second-group{
+      flex-wrap: wrap;
+      height: auto;
+    }
+
+    .second-group1{
+      padding-right: 70px;
+    }
+
+    .third-group{
+      flex-wrap: wrap;
+    }
+
+    .third-group1{
+      padding-right: 30px;
+    }
+
+    .fourth-group{
+      flex-wrap: wrap;
+    }
+
+    .fourth-group1{
+      padding-right: 30px;
+    }
+  }  
+
+  @media only screen and (max-width: 850px) {
+
+    body{
+      height: 5900px;
+    }
+    
+    .dunjina-fotka{
+      height: 480px;
+      padding-left: 20px;
+    }
+
+    .first-group1{
+      display: none;
+    }
+
+    .second-group{
+      margin-top: 50px;
+    }
+
+    .second-group1{
+      padding-right: 0px;
+      padding-bottom: 40px;
+    }
+
+    .second-group img{
+      height: 800px;
+    }
+
+    .third-group{
+      margin-top: 50px;
+    }
+
+    .third-group1{
+      padding-right: 0px;
+    }
+
+    .third-group2{
+      padding-bottom: 0px;
+    }
+
+    .third-group1 img{
+      height: 355px;
+      padding-bottom: 50px;
+    }
+
+    .third-group2 img{
+      height: 800px;
+    }
+
+    .fourth-group{
+      margin-top: 50px;
+    }
+    
+    .fourth-group1{
+      padding-right: 0px;
+    }
+
+    .fourth-group1 img{
+      height: 800px;
+    }
+
+    .fourth-group2{
+      margin-top: 50px;
+    }
+
+    .fourth-group2 img{
+      height: 355px;
+    }
+  }  
+
+
+  @media only screen and (max-width: 760px) {
+
+    body{
+      height: 5600px;
+    }
+
+    .dunjina-fotka{
+      height: 355px;
+      padding-left: 0px;
+      padding-right: 0;
+    }
+  }
+
+
+  @media only screen and (max-width: 580px) {
+
+    body{
+      height: 4700px;
+    }
+    
+    .dunjina-fotka, .fourth-group2 img{
+      height: 300px;
+    }
+
+    .second-group, .third-group, .fourth-group, .fourth-group2{
+      margin-top: 30px;
+    }
+
+    .second-group1{
+      padding-bottom: 30px;
+    }
+
+    .second-group img, .third-group2 img, .fourth-group1 img{
+      height: 675px;
+    }
+
+    .third-group1 img{
+      height: 300px;
+      padding-bottom: 30px;
+    }
+
+
+    .pozovite img{
+      width: 140px;
+    }
+
+    .pozovite{
+      width: 140px;
+    }
+  }  
+
+
+  @media only screen and (max-width: 490px) {
+
+    body{
+      height: 3900px;
+    }
+    
+    .dunjina-fotka, .fourth-group2 img{
+      height: 240px;
+    }
+
+    .second-group, .third-group, .fourth-group, .fourth-group2{
+      margin-top: 25px;
+    }
+
+    .second-group1{
+      padding-bottom: 25px;
+    }
+
+    .second-group img, .third-group2 img, .fourth-group1 img{
+      height: 545px;
+    }
+
+    .third-group1 img{
+      height: 240px;
+      padding-bottom: 25px;
+    }
+  }  
+
+
+  @media only screen and (max-width: 400px) {
+
+    body{
+      height: 3350px;
+    }
+
+    .first-group{
+      margin-top: 90px;
+    }
+    
+    .dunjina-fotka, .fourth-group2 img{
+      height: 200px;
+    }
+
+    .second-group, .third-group, .fourth-group, .fourth-group2{
+      margin-top: 20px;
+    }
+
+    .second-group1{
+      padding-bottom: 20px;
+    }
+
+    .second-group img, .third-group2 img, .fourth-group1 img{
+      height: 455px;
+    }
+
+    .third-group1 img{
+      height: 200px;
+      padding-bottom: 20px;
+    }
+    
+    .pozovite, .pozovite img{
+      width: 120px;
+    }
+  }  
+
+
+  @media only screen and (max-width: 340px) {
+
+    body{
+      height: 3100px;
+    }
+
+    .first-group{
+      margin-top: 80px;
+    }
+    
+    .dunjina-fotka, .fourth-group2 img{
+      height: 190px;
+    }
+
+    .second-group, .third-group, .fourth-group, .fourth-group2{
+      margin-top: 15px;
+    }
+
+    .second-group1{
+      padding-bottom: 15px;
+    }
+
+    .second-group img, .third-group2 img, .fourth-group1 img{
+      height: 430px;
+    }
+
+    .third-group1 img{
+      height: 190px;
+      padding-bottom: 15px;
+    }
+  }  
+
+
+
+  .lazy-load {
+    opacity: 0;
+    transition: opacity 0.7s ease-out;
+  }
+  
+  .lazy-load.loaded {
+    opacity: 1;
+  }
+  

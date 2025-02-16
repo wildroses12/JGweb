@@ -1,0 +1,907 @@
+@font-face {
+    font-family: ITCGaramond;
+    src: url(../fonts/ITCGaramondStd-LtCond.ttf);
+}
+
+body{
+    height: 4300px;
+}
+
+.mission{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2{
+    margin: 0;
+    display: block;
+    font-family: Neue Extended;
+}
+
+h1{
+    font-size: 50px;
+    cursor: default;
+    color: #FD7B91;
+    padding-right: 160px;
+}
+
+h2{
+    color: #044111;
+    font-family: ITCGaramond;
+    font-size: 50px;
+    cursor: default;
+    font-weight: 200;
+    padding-left: 340px;
+    margin-bottom: 50px;
+}
+
+.main-description{
+    margin-top: 35px;
+    display: flex;
+    width: 900px;
+
+}
+
+.main-description p{
+    display: inline-block;
+    text-align: center;
+    font-size: 21px;
+}
+
+.rodjendani-images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    align-items: center;
+}
+
+/* .rodjendani-images img{
+    height: 400px;
+} */
+
+.bigger-img{
+    height: 600px;
+    margin-left: 100px;
+    width:465px;
+    object-fit: cover;
+}
+
+.smaller-img{
+    height: 470px;
+    width: 400px;
+    object-fit: cover;
+}
+
+h3{
+    font-style: Neue Plak;
+    font-weight: 400;
+    font-size: 24px;
+    transform: rotate(90deg);
+    transform-origin: left top;
+    right: 0px;
+    width: 10px;
+}
+
+.rodjendani-p{
+    display: inline-block;
+    width: 800px;
+    text-align: justify;
+    padding-right: 40px;
+}
+
+.rodjendani-p-container{
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+    margin-right: 280px;
+    font-size: 20px;
+}
+
+.vaucer-p{
+    display: inline-block;
+    width: 500px;
+    font-size: 25px;
+    color: #044111;
+}
+
+.vaucer-p a{
+    text-decoration: none;
+    color: black;
+}
+
+.vaucer-p-container{
+    margin-left: 220px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: left;
+}
+
+.krstenja-container, .mature-container{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+
+.petar-img{
+    height: 450px;
+}
+
+.danica-img{
+    height: 370px;
+    width: 700px;
+    object-fit: cover;
+}
+
+.krstenja-p-container{
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.krstenja-p{
+    display: inline-block;
+    width: 900px;
+    margin-bottom: 90px;
+    font-size: 20px;
+    padding-right: 40px;
+    /* text-align: justify; */
+}
+
+.lokacija-p{
+    display: inline-block;
+    text-align: center;
+    width: 700px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #FD7B91;
+    font-family: ITCGaramond;
+}
+
+.mature-p-container{
+    display: flex;
+    justify-content: end;
+    margin-right: 220px;
+    font-size: 20px;
+    margin-top: -80px;
+}
+
+.mature-p{
+    display: inline-block;
+    width: 700px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.mature{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+
+.profesionalnost-p-container{
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.profesionalnost-p{
+    display: inline-block;
+    text-align: center;
+    width: 1000px;
+    font-size: 24px;
+}
+
+.rodjendani{
+    padding-bottom: 90px;
+}
+
+.mature{
+    margin-top: 140px;
+}
+
+.krstenja{
+    margin-top: 100px;
+}
+
+.vise-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+.rodjendani-p-container a, .krstenja a, .mature-p-container a{
+    height: 40px;
+    width: 40px;
+  }
+
+.vise{
+    position: relative;
+  }
+
+.vise-img{
+    height: 27px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: opacity 0.3s ease;
+  }
+
+.vise-img-hover{
+    height: 27px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+.vise:hover .vise-img {
+    opacity: 0;
+  }
+
+.vise:hover .vise-img-hover {
+    opacity: 1;
+  }
+
+.krstenja-c{
+    margin-top: 70px;
+    height: 115px;
+    display: flex;
+}
+
+.fifth-group{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .pozovite {
+    position: relative;
+    width: 180px;
+  }
+
+  .pozovite img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    cursor: pointer;
+    transition: opacity 0.6s ease;
+  }
+
+  .pozovite-img-hover{
+    opacity: 0;
+  }
+
+  .pozovite:hover .pozovite-img {
+    opacity: 0;
+  }
+
+  .pozovite:hover .pozovite-img-hover {
+    opacity: 1;
+  }
+
+
+@media only screen and (max-width: 1650px) {
+
+    .bigger-img{
+        height: 500px;
+        width: 400px;
+    }
+
+    .smaller-img{
+        height: 400px;
+        width: 320px;
+    }
+
+    .petar-img{
+        height: 400px;
+    }
+
+    .danica-img{
+        height: 320px;
+        width: 560px;
+    }
+}
+
+
+@media only screen and (max-width: 1500px) {
+
+    body{
+        height: 3800px;
+    }
+
+    h3{
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .bigger-img{
+        height: 430px;
+        width: 340px;
+    }
+
+    .smaller-img{
+        height: 340px;
+        width: 280px;
+    }
+
+    .rodjendani-images{
+        margin-top: 150px;
+    }
+
+    .rodjendani-p-container{
+        margin-right: 150px;
+    }
+
+    .krstenja-container{
+        margin-top: 130px;
+    }
+
+    .petar-img{
+        height: 300px;
+    }
+
+    .danica-img{
+        height: 250px;
+        width: 420px;
+    }
+
+    .krstenja-c{
+        width: 850px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+
+    body{
+        height: 3500px;
+    }
+
+    .bigger-img{
+        height: 380px;
+        width: 300px;
+        margin-left: 40px;
+        margin-right: 30px;
+    }
+
+    .smaller-img{
+        height: 280px;
+        width: 230px;
+        padding-right: 30px;
+    }
+
+    .rodjendani-p-container, .krstenja-c{
+        margin-right: 70px;
+        font-size: 18px;
+        margin-left: 100px;
+    }
+
+    .krstenja-c{
+        width: 700px;
+        margin-left: 40px;
+    }
+
+    .krstenja{
+        margin-top: 80px;
+    }
+
+    .rodjendani-p-container{
+        width: 750px;
+    }
+
+    .rodjendani-p{
+        padding-right: 16px;
+    }
+
+    .vise-img{
+        height: 24px;
+      }
+    
+    .vise-img-hover{
+        height: 24px;
+      }
+
+    .vaucer-p{
+        font-size: 23px;
+        width: 410px;
+    }
+
+    .petar-img{
+        height: 260px;
+    }
+
+    .danica-img{
+        height: 230px;
+        width: 380px;
+        padding-right: 30px;
+    }
+
+    .krstenja-container, .mature-container{
+        margin-left: 40px;
+    }
+
+    .krstenja-p{
+        font-size: 18px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .lokacija-p{
+        font-size: 23px;
+    }
+
+    .mature-container{
+        margin-top: 100px;
+    }
+
+    .mature-p-container{
+        margin-right: 0px;
+        justify-content: center;
+    }
+
+    .mature{
+        margin-top: 120px;
+    }
+
+    .profesionalnost-p{
+        font-size: 22px;
+        width: 880px;
+    }
+
+    .pozovite img{
+        width: 140px;
+        padding-left: 30px;
+      }
+  
+      .pozovite{
+        width: 140px;
+        padding-left: 30px;
+      }
+
+}
+
+@media only screen and (max-width: 950px){
+
+    body{
+        height: 3300px;
+    }
+
+    h1{
+        font-size: 32px;
+        padding-right: 95px;
+    }
+
+    h2{
+        font-size: 32px;
+        padding-left: 235px;
+    }
+
+    .main-description{
+        width: 700px;
+    }
+
+    .main-description p{
+        font-size: 18px;
+    }
+
+    .mission{
+        margin-top: 150px;
+    }
+
+    .bigger-img{
+        height: 330px;
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    .smaller-img{
+        height: 270px;
+        width: 200px;
+        padding-right: 0px;
+        margin-right: 30px;
+    }
+
+    .antonio{
+        padding-right: 30px;
+    }
+
+    .rodjendani-p-container{
+        margin-left: 60px;
+        width: 600px;
+    }
+
+    .vaucer-p-container{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .petar-img{
+        height: 230px;
+    }
+
+    .danica-img{
+        height: 200px;
+        width: 310px;
+        padding-right: 30px;
+    }
+
+    .krstenja-container, .mature-container{
+        margin-left: 20px;
+    }
+
+    .krstenja-c{
+        width: 550px;
+        margin-left: 0;
+    }
+
+    .krstenja-p{
+        padding-right: 20px;
+    }
+
+    .profesionalnost-p{
+        font-size: 20px;
+        width: 710px;
+    }
+
+    .krstenja{
+        margin-top: 60px;
+    }
+
+    .mature{
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    
+    body{
+        height: 3600px;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .main-description{
+        width: 530px;
+    }
+
+    .rodjendani-images{
+        flex-wrap: wrap;
+    }
+
+    .bigger-img{
+        height: 400px;
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .rodjendani-images{
+        margin-left: 50px;
+    }
+
+    .smaller-img{
+        height: 600px;
+        width: 400px;
+        padding-right: 0px;
+    }
+
+    .rodjendani-p-container{
+        margin-left: 60px;
+        margin-right: 0;
+        width: 450px;
+        justify-content: center;
+    }
+
+    .smaller-img{
+        display: none;
+    }
+
+    .vise-img{
+        height: 20px;
+      }
+    
+    .vise-img-hover{
+        height: 20px;
+      }
+    
+    .danica-img{
+        display: none;
+    }
+
+    .krstenja-c{
+        width: 400px;
+        margin-left: 10px;
+        height: 190px;
+    }
+
+    .lokacija-p{
+        width: 420px;
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+
+    .mature-p{
+        width: 400px;
+        margin-top: 50px;
+    }
+
+    .profesionalnost-p{
+        width: 530px;
+    }
+
+    .profesionalnost-p-container{
+        margin-top: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 590px){
+
+    body{
+        height: 3100px;
+    }
+    
+    h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+        padding-right: 0;
+    }
+
+    h2{
+        font-size: 30px;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .main-description{
+        width: 350px;
+    }
+
+    .main-description p{
+        font-size: 16px;
+    }
+
+    .mission{
+        margin-top: 100px;
+    }
+
+    .bigger-img{
+        height: 350px;
+        width: 270px;
+        margin-left: 0px;
+    }
+
+    .rodjendani-images{
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+
+    .rodjendani-p-container{
+        margin-left: 30px;
+        width: 350px;
+        font-size: 15px;
+    }
+
+    .vise-img{
+        height: 18px;
+      }
+    
+    .vise-img-hover{
+        height: 18px;
+      }
+
+      .vaucer-p{
+        font-size: 20px;
+        margin-left: 20px;
+      }
+
+      .petar-img{
+        height: 190px;
+    }
+
+    .krstenja-container{
+        margin-top: 100px;
+    }
+
+    .krstenja-c{
+        margin-top: 50px;
+        width: 300px;
+        height: 160px;
+    }
+
+    .krstenja-p{
+        font-size: 15px;
+    }
+
+    .lokacija-p{
+        width: 360px;
+        font-size: 20px;
+    }
+
+    .mature-p{
+        width: 300px;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .profesionalnost-p{
+        width: 350px;
+        font-size: 18px;
+    }
+
+    .profesionalnost-p-container{
+        margin-top: 70px;
+    }
+
+    h3{
+        font-size: 19px;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 480px){
+
+    body{
+        height: 2870px;
+    }
+
+    h1{
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    h2{
+        font-size: 26px;
+    }
+
+    .main-description{
+        width: 300px;
+    }
+
+    .bigger-img{
+        height: 300px;
+        width: 220px;
+    }
+
+    .rodjendani-p-container{
+        width: 270px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .vise-img{
+        height: 15px;
+      }
+    
+    .vise-img-hover{
+        height: 15px;
+      }
+
+      .vaucer-p-container{
+        width: 300px;
+        margin-top: 60px;
+      }
+
+      .vaucer-p{
+        font-size: 17px;
+      }
+
+      .petar-img{
+        height: 160px;
+    }
+
+    .krstenja-container{
+        margin-left: 0;
+        margin-top: 60px;
+    }
+
+    .krstenja-c{
+        margin-top: 30px;
+        width: 240px;
+        height: 210px;
+        margin-left: 25px;
+    }
+
+    .krstenja-p{
+        font-size: 14px;
+    }
+
+    .lokacija-p{
+        width: 300px;
+        font-size: 18px;
+        margin-top: 70px;
+    }
+
+    .mature-container{
+        margin-left: 0;
+        margin-top: 70px;
+    }
+
+    .mature-p{
+        width: 280px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .profesionalnost-p{
+        width: 280px;
+        font-size: 17px;
+    }
+
+    .profesionalnost-p-container{
+        margin-top: 50px;
+    }
+
+    h3{
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .pozovite img{
+        width: 110px;
+        padding-left: 10px;
+      }
+  
+      .pozovite{
+        width: 110px;
+        padding-left: 10px;
+      }
+
+      .krstenja{
+        margin-top: 40px;
+    }
+
+    .mature{
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 410px){
+
+    h1{
+        font-size: 22px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+}
+
+
+@media only screen and (max-width: 340px){
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    .bigger-img{
+        height: 280px;
+        width: 210px;
+    }
+
+    .rodjendani-images{
+        margin-left: 0;
+    }
+
+    .petar-img{
+        height: 140px;
+    }
+
+    .rodjendani-p-container{
+        margin-left: 10px;
+    }
+}

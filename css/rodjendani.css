@@ -1,0 +1,615 @@
+body{
+    height: 9800px;
+}
+
+.rodjendani-container{
+    font-size: 70px;
+    left: 70px;
+    width: 1300px;
+    display: flex;
+    justify-content: end;
+}
+
+
+@media only screen and (max-width: 1150px) {
+   
+    .rodjendani-container{
+        font-size: 50px;
+    }
+
+    .burger-menu{
+        top: 30px;
+    }
+  }  
+
+
+@media only screen and (max-width: 800px) {
+
+    .rodjendani-container{
+        font-size: 40px;
+    }
+
+    .burger-menu{
+        top: 18px;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 650px) {
+ 
+    .rodjendani-container {
+        font-size: 30px;
+    }
+
+    .burger-menu{
+        min-width: 30px;
+        height: 30px;
+        right: 30px;
+        top: 10px;
+    }
+    .burger-menu span{
+        width: 15px;
+        height: 1.6px;
+    }
+  }
+
+
+  @media only screen and (max-width: 490px) {
+
+    .rodjendani-container {
+        margin-left: 20px;
+    }
+
+    .burger-menu{
+        right: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 460px) {
+
+    .rodjendani-container {
+        font-size: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+
+    .rodjendani-container {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .burger-menu{
+        top: 12px;
+    }
+  }
+
+
+  .first-group, .fifth-group, .eighth-group{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    height: 750px;
+  }
+
+  .first-group img, .fifth-group img, .eighth-group img{
+    width: 1500px;
+    object-fit: cover;
+  }
+
+  .second-group{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+  }
+
+  .second-group img{
+    height: 800px;
+  }
+
+  .third-group, .sixth-group{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .third-group1, .sixth-group1{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .aleksandar-img, .maksim-img{
+    height: 600px;
+  }
+
+  .pavle-img, .mihajlo-img{
+    height: 800px;
+  }
+
+  .third-group2, .sixth-group2{
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .third-group21{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  .deca-img{
+    height: 600px;
+  }
+
+  .milos-img, .andrija-img{
+    height: 800px;
+  }
+
+  .fourth-group{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .fourth-group1 img{
+    height: 950px;
+  }
+
+  .fourth-group2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .fourth-group2 img{
+    height: 460px;
+    width: 460px;
+    object-fit: cover;
+  }
+
+  .sixth-group11{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  .seventh-group{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .seventh-group img {
+    height: 800px;
+  }
+
+  .ninth-group{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .pozovite {
+    position: relative;
+    width: 180px;
+  }
+
+  .pozovite img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    cursor: pointer;
+    transition: opacity 0.6s ease;
+  }
+
+  .pozovite-img-hover{
+    opacity: 0;
+  }
+
+  .pozovite:hover .pozovite-img {
+    opacity: 0;
+  }
+
+  .pozovite:hover .pozovite-img-hover {
+    opacity: 1;
+  }
+
+  @media only screen and (max-width: 1670px){
+
+    body{
+      height: 8000px;
+    }
+
+    .first-group, .fifth-group, .eighth-group{
+      height: 600px;
+      margin-top: 100px;
+    }
+
+    .first-group{
+      margin-top: 150px;
+    }
+
+    .first-group img, .fifth-group img, .eighth-group img{
+      width: 1150px;
+      object-fit: cover;
+    }
+
+    .aleksandar-img, .maksim-img{
+      height: 450px;
+    }
+  
+    .pavle-img, .mihajlo-img{
+      height: 650px;
+    }
+
+    .deca-img{
+      height: 450px;
+    }
+  
+    .milos-img, .andrija-img{
+      height: 650px;
+    }
+
+    .seventh-group img {
+      height: 550px;
+    }
+
+    .second-group, .third-group, .fourth-group, .sixth-group, .seventh-group, .ninth-group {
+      margin-top: 100px;
+    }
+
+    .third-group2, .sixth-group2{
+      margin-top: -80px;
+    }
+  
+  }
+
+  @media only screen and (max-width: 1200px){
+
+    body{
+      height: 6500px;
+    }
+
+    .first-group, .fifth-group, .eighth-group{
+      height: 500px;
+      margin-top: 80px;
+    }
+
+    .first-group{
+      margin-top: 150px;
+    }
+
+    .first-group img, .fifth-group img, .eighth-group img{
+      width: 900px;
+      object-fit: cover;
+    }
+
+    .second-group img{
+      height: 700px;
+    }
+
+    .fourth-group1 img {
+      height: 800px;
+    }
+
+    .fourth-group2 img{
+      height: 380px;
+      width: 380px;
+    }
+
+    .aleksandar-img, .maksim-img{
+      height: 350px;
+    }
+  
+    .pavle-img, .mihajlo-img{
+      height: 500px;
+    }
+
+    .deca-img{
+      height: 350px;
+    }
+  
+    .milos-img, .andrija-img{
+      height: 500px;
+    }
+
+    .seventh-group img {
+      height: 400px;
+    }
+
+    .second-group, .third-group, .fourth-group, .sixth-group, .seventh-group, .ninth-group {
+      margin-top: 80px;
+    }
+
+  }
+
+  @media only screen and (max-width: 1000px){
+
+    body{
+      height: 5400px;
+    }
+
+    .first-group, .fifth-group, .eighth-group{
+      height: 400px;
+      margin-top: 80px;
+    }
+
+    .first-group{
+      margin-top: 100px;
+    }
+
+    .first-group img, .fifth-group img, .eighth-group img{
+      width: 700px;
+    }
+
+    .second-group img{
+      height: 500px;
+    }
+
+    .fourth-group1 img {
+      height: 650px;
+    }
+
+    .fourth-group2 img{
+      height: 300px;
+      width: 300px;
+    }
+
+    .aleksandar-img, .maksim-img{
+      height: 280px;
+    }
+  
+    .pavle-img, .mihajlo-img{
+      height: 430px;
+    }
+
+    .deca-img{
+      height: 280px;
+    }
+  
+    .milos-img, .andrija-img{
+      height: 430px;
+    }
+
+    .seventh-group img {
+      height: 350px;
+    }
+
+    .second-group, .third-group, .fourth-group, .sixth-group, .seventh-group, .ninth-group {
+      margin-top: 60px;
+    }
+
+  }
+
+  @media only screen and (max-width: 800px) {
+
+    body{
+      height: 14500px;
+    }
+
+    .first-group img, .fifth-group img, .eighth-group img{
+      width: 600px;
+      object-fit: cover;
+    }
+
+    .second-group, .third-group1, .third-group2, .fourth-group, .sixth-group1, .sixth-group2, .seventh-group {
+      flex-wrap: wrap;
+    }
+
+    .second-group, .third-group, .fourth-group, .fifth-group, .sixth-group, .seventh-group, .eighth-group, .ninth-group {
+      margin-top: 40px;
+    }
+
+    .second-group img{
+      height: 900px;
+    }
+
+    .second-group :nth-child(1), .aleksandar-img, .milos-img, .mihajlo-img, .maksim-img, .pavle-img, .sixth-group11 img{
+      padding-bottom: 40px;
+    }
+
+    .third-group2, .sixth-group2{
+      margin-top: 0px;
+    }
+
+    .fourth-group1 img {
+      height: 900px;
+      padding-bottom: 40px;
+    }
+
+    .fourth-group2 img{
+      width: auto;
+      object-fit: contain;
+    }
+
+    .fourth-group2 :nth-child(1){
+      height: 900px;
+      padding-bottom: 40px;
+    }
+
+    .fourth-group2 :nth-child(2){
+      height: 400px;
+    }
+
+    .aleksandar-img, .maksim-img{
+      height: 400px;
+    }
+  
+    .pavle-img, .mihajlo-img{
+      height: 900px;
+    }
+
+    .deca-img{
+      height: 400px;
+    }
+  
+    .milos-img, .andrija-img{
+      height: 900px;
+    }
+
+    .seventh-group img {
+      height: 900px;
+    }
+
+    .seventh-group :nth-child(1), .seventh-group :nth-child(2){
+      padding-bottom: 40px;
+    }
+
+    .third-group2, .sixth-group2{
+      margin-top: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 640px){
+
+    body{
+      height: 11000px;
+    }
+
+    .second-group, .third-group, .fourth-group, .fifth-group, .sixth-group, .seventh-group, .eighth-group, .ninth-group {
+      margin-top: 30px;
+    }
+
+    .second-group :nth-child(1), .aleksandar-img, .milos-img, .mihajlo-img, .maksim-img, .pavle-img, .sixth-group11 img, .fourth-group1 img, .fourth-group2 :nth-child(1){
+      padding-bottom: 30px;
+    }
+
+    .seventh-group :nth-child(1), .seventh-group :nth-child(2){
+      padding-bottom: 30px;
+    }
+
+    .first-group, .fifth-group, .eighth-group{
+      height: 300px;
+    }
+
+    .first-group{
+      margin-top: 100px;
+    }
+
+    .first-group img, .fifth-group img, .eighth-group img{
+      width: 450px;
+    }
+
+    .second-group img{
+      height: 675px;
+    }
+
+    .fourth-group1 img {
+      height: 675px;
+    }
+
+    .fourth-group2 :nth-child(1){
+      height: 675px;
+    }
+
+    .fourth-group2 :nth-child(2){
+      height: 300px;
+    }
+
+    .aleksandar-img, .maksim-img{
+      height: 300px;
+    }
+  
+    .pavle-img, .mihajlo-img{
+      height: 675px;
+    }
+
+    .deca-img{
+      height: 300px;
+    }
+  
+    .milos-img, .andrija-img{
+      height: 675px;
+    }
+
+    .seventh-group img {
+      height: 675px;
+    }
+
+    .pozovite {
+      width: 150px;
+      margin-top: 50px;
+    }
+  
+    .pozovite img{
+      width: 150px;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 480px){
+
+    body{
+      height: 7600px;
+    }
+
+    .first-group, .fifth-group, .eighth-group{
+      height: 200px;
+    }
+
+    .first-group{
+      margin-top: 100px;
+    }
+
+    .first-group img, .fifth-group img, .eighth-group img{
+      width: 300px;
+    }
+
+    .second-group img{
+      height: 450px;
+    }
+
+    .fourth-group1 img {
+      height: 450px;
+    }
+
+    .fourth-group2 :nth-child(1){
+      height: 450px;
+    }
+
+    .fourth-group2 :nth-child(2){
+      height: 200px;
+    }
+
+    .aleksandar-img, .maksim-img{
+      height: 200px;
+    }
+  
+    .pavle-img, .mihajlo-img{
+      height: 450px;
+    }
+
+    .deca-img{
+      height: 200px;
+    }
+  
+    .milos-img, .andrija-img{
+      height: 450px;
+    }
+
+    .seventh-group img {
+      height: 450px;
+    }
+
+    .pozovite {
+      width: 130px;
+    }
+  
+    .pozovite img{
+      width: 130px;
+    }
+
+  }
+
+  
+  .lazy-load {
+    opacity: 0;
+    transition: opacity 0.7s ease-out;
+  }
+  
+  .lazy-load.loaded {
+    opacity: 1;
+  }

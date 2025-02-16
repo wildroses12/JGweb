@@ -1,0 +1,299 @@
+body{
+    height: 1800px;
+}
+
+h1{
+    margin: 0;
+    font-weight: 100;
+}
+
+.subbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-container{
+    position: relative;
+    width: 500px;
+}
+
+.burger-menu{
+    position: absolute;
+    max-width: 45px;
+    right: 50px;
+}
+
+.o-meni-container{
+  margin-top: 10px;
+  font-size: 70px;
+  left: 100px;
+  width: 1200px;
+  display: flex;
+  justify-content: end;
+}
+
+
+@media only screen and (max-width: 1285px) {
+   
+    .o-meni-container{
+        font-size: 50px;
+    }
+
+    .burger-menu{
+      right: 20px;
+    }
+  }  
+
+
+@media only screen and (max-width: 800px) {
+
+    .o-meni-container{
+        font-size: 40px;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 470px) {
+ 
+    .o-meni-container {
+        font-size: 30px;
+    }
+    
+  }
+
+
+  .ja-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 170px;
+  }
+
+  .second-vertical-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ja-img-container img{
+    height: 700px;
+  }
+
+  .info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+
+  .info-container p{
+    font-family: Neue Plak;
+    font-size: 26px;
+    color: #AF7D5E;
+    margin-bottom: 45px;
+  }
+
+  .description-container p{
+    display: inline-block;
+    width: 700px;
+    text-align: justify;
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #0073B6;
+  }
+
+  .description-container{
+    margin-top: 70px;
+  }
+
+  .kontakt-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    align-items: center;
+
+  }
+
+
+  .kontaktirajte-me{
+    position: relative;
+    height: 200px;
+    width: 200px;
+  }
+
+  .kontaktirajte-me-img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: opacity 0.3s ease;
+  }
+
+  .kontaktirajte-me-img-hover{
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .kontaktirajte-me:hover .kontaktirajte-me-img {
+    opacity: 0;
+  }
+
+  .kontaktirajte-me:hover .kontaktirajte-me-img-hover {
+    opacity: 1;
+  }
+
+  @media only screen and (max-width: 1500px){
+
+    .ja-img-container img{
+        height: 600px;
+      }
+
+      .info-container p{
+        font-size: 23px;
+        margin-bottom: 30px;
+      }
+
+      .description-container p{
+        width: 600px;
+        font-size: 20px;
+      }
+
+      .description-container{
+        margin-top: 50px;
+      }
+
+      
+      .kontaktirajte-me-img{
+        height: 170px;
+      }
+  
+      .kontaktirajte-me-img-hover{
+        height: 170px;
+      }
+
+  }
+
+ 
+
+  @media only screen and (max-width: 1180px){
+
+    body{
+        height: 1600px;
+    }
+
+    .ja-img-container img{
+        height: 500px;
+        margin-right: 20px;
+      }
+
+      .info-container p{
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+
+      .description-container p{
+        width: 400px;
+        font-size: 20px;
+      }
+
+      .description-container{
+        margin-top: 50px;
+      }
+
+      .kontakt-button{
+        margin-top: 80px;
+    
+      }
+    }
+
+   @media only screen and (max-width: 900px){
+
+    body{
+        height: 2180px;
+    }
+    
+    .ja-container{
+        flex-wrap: wrap;
+      }
+
+      .ja-img-container img{
+        height: 640px;
+        margin-right: 0px;
+      }
+
+      .info-container{
+        margin-top: 40px;
+        align-items: baseline;
+      }
+
+      .description-container p{
+        width: 600px;
+      }
+  }
+
+  @media only screen and (max-width: 680px){
+
+    body{
+        height: 2100px;
+    }
+
+    .description-container p{
+        width: 400px;
+      }
+
+      .ja-img-container img{
+        height: 550px;
+      }
+    
+      .ja-container{
+        margin-top: 100px;
+      }
+  }
+
+  @media only screen and (max-width: 500px){
+
+    body{
+        height: 1900px;
+    }
+
+    .description-container p{
+        width: 300px;
+        font-size: 18px;
+      }
+
+      .ja-img-container img{
+        height: 400px;
+      }
+    
+      .ja-container{
+        margin-top: 100px;
+      }
+      .info-container p{
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+
+      .kontaktirajte-me-img{
+        height: 140px;
+        padding-left: 20px;
+      }
+  
+      .kontaktirajte-me-img-hover{
+        height: 140px;
+        padding-left: 20px;
+      }
+  }
+
+  @media only screen and (max-width: 380px){
+
+    .ja-img-container img{
+        height: 300px;
+      }
+
+      .description-container p{
+        width: 250px;
+        font-size: 17px;
+      }
+  }
